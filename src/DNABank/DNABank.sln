@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNABank.Domain", "DNABank.Domain\DNABank.Domain.csproj", "{597CB13B-A5C4-4378-B4BB-FF79BABBBFDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNABank.Infrastructure", "DNABank.Infrastructure\DNABank.Infrastructure.csproj", "{58D170CF-089C-4B50-913D-EDE3D77E413F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNABank.Application", "DNABank.Application\DNABank.Application.csproj", "{6F45232A-9D97-4568-B488-4BB8D2049324}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNABank.API", "DNABank.API\DNABank.API.csproj", "{540CB17E-D3C5-4513-90F9-97D2A463B3B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{44B8F24D-7F07-4F7F-806D-A55EB3EB1401}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNABank.APITests", "..\..\tests\DNABank.APITests\DNABank.APITests.csproj", "{73DBA2D4-5677-46BD-8017-951BA6C60DC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{597CB13B-A5C4-4378-B4BB-FF79BABBBFDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{597CB13B-A5C4-4378-B4BB-FF79BABBBFDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{597CB13B-A5C4-4378-B4BB-FF79BABBBFDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{597CB13B-A5C4-4378-B4BB-FF79BABBBFDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58D170CF-089C-4B50-913D-EDE3D77E413F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D170CF-089C-4B50-913D-EDE3D77E413F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D170CF-089C-4B50-913D-EDE3D77E413F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D170CF-089C-4B50-913D-EDE3D77E413F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F45232A-9D97-4568-B488-4BB8D2049324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F45232A-9D97-4568-B488-4BB8D2049324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F45232A-9D97-4568-B488-4BB8D2049324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F45232A-9D97-4568-B488-4BB8D2049324}.Release|Any CPU.Build.0 = Release|Any CPU
+		{540CB17E-D3C5-4513-90F9-97D2A463B3B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{540CB17E-D3C5-4513-90F9-97D2A463B3B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{540CB17E-D3C5-4513-90F9-97D2A463B3B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{540CB17E-D3C5-4513-90F9-97D2A463B3B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73DBA2D4-5677-46BD-8017-951BA6C60DC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73DBA2D4-5677-46BD-8017-951BA6C60DC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73DBA2D4-5677-46BD-8017-951BA6C60DC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73DBA2D4-5677-46BD-8017-951BA6C60DC7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{597CB13B-A5C4-4378-B4BB-FF79BABBBFDF} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{58D170CF-089C-4B50-913D-EDE3D77E413F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{6F45232A-9D97-4568-B488-4BB8D2049324} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{540CB17E-D3C5-4513-90F9-97D2A463B3B5} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{73DBA2D4-5677-46BD-8017-951BA6C60DC7} = {44B8F24D-7F07-4F7F-806D-A55EB3EB1401}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6552702-7F97-43F0-9D8C-7402756456C8}
+	EndGlobalSection
+EndGlobal
